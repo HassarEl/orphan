@@ -20,11 +20,11 @@
                                 <div>
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb mb-0">
-                                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                                            <li class="breadcrumb-item">@yield('title_page_1')</li>
+                                            <li class="breadcrumb-item">@yield('title_page_2')</li>
                                         </ol>
                                     </nav>
-                                    <h1 class="m-0">Dashboard</h1>
+                                    <h1 class="m-0">@yield('title_header')</h1>
                                 </div>
                                 <div class="ml-auto">
                                     <a href="" class="btn btn-light"><i class="material-icons icon-16pt text-muted mr-1">settings</i> Settings</a>
@@ -37,6 +37,7 @@
 
                     <div class="container-fluid page__container">
                         
+                        @yield('content')
 
                     </div>
 
