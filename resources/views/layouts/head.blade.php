@@ -63,6 +63,6 @@
     <!-- Vector Maps -->
     <link type="text/css" href="{{asset('assets/vendor/jqvmap/jqvmap.min.css')}}" rel="stylesheet">
 
-
+    @yield('css')
 
 </head>
